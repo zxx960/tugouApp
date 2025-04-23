@@ -1,7 +1,7 @@
 export const SITE = {
   title: {
-    en: "BlockLune's Blog",
-    zh: "BlockLune's Blog",
+    en: "土狗软件库",
+    zh: "土狗软件库",
   },
   description: {
     en: "A blog about development and life, powered by Astro.",

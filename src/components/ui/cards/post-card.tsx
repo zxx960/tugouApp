@@ -21,18 +21,18 @@ export default function PostCard({
   const component = (
     <a
       href={snapshot.href}
-      className="card-hoverable p-8 text-pretty flex flex-col gap-4"
+      className="card-hoverable px-8 py-4 text-pretty flex flex-col gap-4"
     >
-      <h2 className="font-bold text-3xl text-dracula-pink">{snapshot.title}</h2>
-      <div className="flex flex-wrap gap-2">
+      <h2 className="font-bold text-2xl text-dracula-pink">{snapshot.title}</h2>
+      {/* <div className="flex flex-wrap gap-2">
         <DateTag lang={lang} date={snapshot.date} />
         {snapshot.tags.sort().map((tag) => (
           <LabelTag lang={lang} label={tag} key={tag} />
         ))}
-      </div>
-      <p className="text-ellipsis break-all line-clamp-3">
+      </div> */}
+      {/* <p className="text-ellipsis break-all line-clamp-3">
         {snapshot.description}
-      </p>
+      </p> */}
     </a>
   );
   return animate ? (
