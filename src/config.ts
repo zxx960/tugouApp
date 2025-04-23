@@ -7,7 +7,7 @@ export const SITE = {
     en: "A blog about development and life, powered by Astro.",
     zh: "一个关于开发和生活的博客，由 Astro 驱动。",
   },
-  url: "https://blocklune.cc",
+  url: "https://www.tugoudj.com",
   og: {
     imageUrl: "/ogimage.jpg",
   },

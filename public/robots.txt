@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.tugoudj.com/sitemap-index.xml
+
+# 优化建议：
+# - 如有不希望收录的路径，可用 Disallow: /path/
+# - 若有多语言版本，也可在 sitemap 中体现
+# - 若域名变动，请同步修改 sitemap 地址
