@@ -5,7 +5,7 @@ export const languages = {
   zh: "中",
 };
 
-export const defaultLang: Lang = "en";
+export const defaultLang: Lang = "zh";
 
 export const ui = {
   en: {
